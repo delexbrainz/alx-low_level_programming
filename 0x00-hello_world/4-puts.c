@@ -1,14 +1,22 @@
 #include <stdio.h>
+#include <string.h>
 
 /**
-* main - print string using put function
+*main - entry point
+*@str The character type variable str is declared
+
 *
-* Description: use main function
-* the put function prints out string in str
-* Return: 0 (Success)
-*/
-int main(void) 
+
+* The string value is assigned to it
+
+* puts function is used to print out the string in str
+
+* Return: (0) Success
+*/ 
+int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return(0);
+	char str[] = "\"Programming is like building a multilingual puzzle";
+
+	puts(str);
+	return (0);
 }
