@@ -14,11 +14,11 @@ int main(void)
 	{
 		if (alph == 'e')
 		{
-			alpha++;
+			alph++;
 		}
 		else if (alph == 'q')
 		{
-			alpha++;
+			alph++;
 		}
 		else 
 		{
