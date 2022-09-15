@@ -16,7 +16,7 @@ int print_last_digit(int k)
 	}
 	else if (k < 0)
 	{
-		K *= -1;
+		k *= -1;
 		i = k & 10;
 	}
 	else
