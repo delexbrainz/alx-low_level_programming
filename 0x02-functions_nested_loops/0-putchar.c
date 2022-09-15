@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - entry point
+ * main - print putchar
  *
  * Return: 0 Success
  */
