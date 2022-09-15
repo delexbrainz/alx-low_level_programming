@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * _islower -check input for lower case letters
@@ -8,7 +8,7 @@
 int _islower(int c)
 {
 	int a;
-	if ((c >= 'a') && (c <= 'z'>))
+	if ((c >= 'a') && (c <= 'z'))
 	{
 		a = 1;
 	}
