@@ -2,6 +2,7 @@
 
 /**
  * _islower -check input for lower case letters
+ * @c: an input character
  *
  * Return: 1 when c is lowercase and 0 is otherwise
  */
