@@ -2,7 +2,7 @@
 
 /**
  * print_reverse - print string i reverse
- * @s: string 
+ * @s: string to be reversed
  *
  * Return: void
  */
