@@ -6,14 +6,15 @@
  * @s2: input two
  * Return: Always 0 (Success)
  */
-int _strcmp(char *s1, char *s2)
+char *_strncpy(char *dest, char *src, int n)
+
 {
 	int i;
 
-	for (i = 0; s1[i] != '\0' && s2[i] != '\0'; i++)
-	{
-	if (s1[i] != s2[i])
-	return (s1[i] - s2[i]);
-	}
-	return (0);
+	for (i = 0; src[i] != '\0'; i++)
+		if (i < n)
+			dest[i] = src[i];
+	while (i < n)
+		dest[i++] = '\0';
+	return (dest);
 }
