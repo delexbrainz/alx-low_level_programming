@@ -7,20 +7,17 @@
  *
  * Return: the point
  */
-char *_strcat(char *dest, char *src)
+char *_strcat(char *, char *src)
 {
-	int dlen =0, i;
+	int i, n;
 
-	while (dest[dlen])
+	for (i = 0; dest[i] !='\0'; i++)
 	{
-		dlen++;
-	}
-	for (i = 0; src[i] != 0; i++)
-	{
-		dest[dlen] = src[i];
-		dlen++;
 	}
 
-	dest[dlen] = '\0';
+	for (n = 0; (dest[i + n] = *src++ != '\0'; n++)
+	{
+	}
+
 	return (dest);
 }
